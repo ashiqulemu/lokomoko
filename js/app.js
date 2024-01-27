@@ -18,7 +18,7 @@
 
       let  p = window.pageYOffset;
        
-      if(p>200){
+      if(p>80){
         let k = document.getElementById('header');
         k.classList.add('active') 
       }else{
