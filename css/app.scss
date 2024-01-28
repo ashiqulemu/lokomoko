@@ -23,7 +23,7 @@
     }
 
     .statliches {
-        font-family: "staatliches",sans-serif!important;
+        font-family: "staatliches", sans-serif !important;
         letter-spacing: 3.2px;
     }
 
@@ -349,17 +349,20 @@
     }
 
     .menu-row {
-        display: flex; 
+        display: flex;
         align-items: center;
         justify-content: center;
         gap: 15px;
-        &:not(:last-child){
-            margin-bottom:  25px;
+
+        &:not(:last-child) {
+            margin-bottom: 25px;
         }
-        img{
+
+        img {
             width: 115px;
             height: 115px;
         }
+
         .inner {
             width: 100%;
 
@@ -387,11 +390,39 @@
         }
     }
 
+    .footer-top {
+
+        background-image: linear-gradient(rgb(12 12 12 / 56%), rgb(8 7 7 / 64%)), url(../images/Litt-Cocktail-Mixers-India-5.jpg);
+        /* background-size: 102% 178%; */
+        background-position: center center;
+        transform: translateY(73px);
+    }
+
     // site Footer 
 
     footer {
-        background: #fff;
+        background-image: url(../images/footer-vegetables-background.svg), linear-gradient(#0c0c0c, #000000);
+        background-size: cover;
+
+        ul {
+            padding: 0;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: $white;
+                    line-height: 2;
+                    font-weight: 600;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
     }
+
+
 
     //  Slick slider css
 

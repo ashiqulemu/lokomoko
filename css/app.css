@@ -280,8 +280,30 @@ body {
   color: #fff;
 }
 
+.footer-top {
+  background-image: linear-gradient(rgba(12, 12, 12, 0.56), rgba(8, 7, 7, 0.64)), url(../images/Litt-Cocktail-Mixers-India-5.jpg);
+  /* background-size: 102% 178%; */
+  background-position: center center;
+  transform: translateY(73px);
+}
+
 footer {
-  background: #fff;
+  background-image: url(../images/footer-vegetables-background.svg), linear-gradient(#0c0c0c, #000000);
+  background-size: cover;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: #fff;
+  line-height: 2;
+  font-weight: 600;
+}
+footer ul li a:hover {
+  color: #418043;
 }
 
 .slick-track {
