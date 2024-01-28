@@ -7,7 +7,7 @@
   src: url(../fonts/Staatliches-Regular.ttf);
 }
 .statliches {
-  font-family: "staatliches";
+  font-family: "staatliches", sans-serif !important;
   letter-spacing: 3.2px;
 }
 
@@ -59,7 +59,7 @@ body {
 
 .sub-title {
   font-size: 17px;
-  max-width: 60%;
+  max-width: 70%;
   color: #333333;
   line-height: 1.6;
 }
@@ -200,6 +200,86 @@ body {
   font-size: 16px;
 }
 
+.revolution {
+  background-image: url(../images/vegetables-background.svg), linear-gradient(#0c0c0c, #000000);
+  background-size: cover;
+  height: 60vh;
+}
+
+.default {
+  padding: 90px 0;
+}
+
+.w-75 {
+  width: 75% !important;
+  max-width: unset;
+}
+
+.occation .photobox {
+  margin-bottom: 25px;
+}
+.occation .photobox .photo {
+  position: relative;
+}
+.occation .photobox .photo img {
+  transition: all 0.2s ease-in-out;
+}
+.occation .photobox .photo .info {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  background: white;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  padding: 45px;
+}
+.occation .photobox .photo:hover img {
+  filter: brightness(0.6);
+}
+
+.quick-menu {
+  background-image: url(../images/bg-burger.png), linear-gradient(#0c0c0c, #000000);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.menu-row:not(:last-child) {
+  margin-bottom: 25px;
+}
+.menu-row img {
+  width: 115px;
+  height: 115px;
+}
+.menu-row .inner {
+  width: 100%;
+}
+.menu-row .inner .box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.menu-row .inner .box::after {
+  content: "";
+  border: 2px dashed grey;
+  position: absolute;
+  top: 12px;
+  width: calc(100% - 240px);
+  margin: 0 auto;
+  left: 53px;
+  right: 0;
+}
+.menu-row .inner .box h3 {
+  font-family: "staatliches";
+  color: #fff;
+}
+
 footer {
   background: #fff;
 }
@@ -259,6 +339,22 @@ footer {
   text-transform: capitalize;
 }
 .btn-default:hover {
+  background: #418043;
+  color: #fff;
+}
+
+.btn-default-dark {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000000;
+  background: #242424;
+  padding: 13px 30px;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.btn-default-dark:hover {
   background: #418043;
   color: #fff;
 }
