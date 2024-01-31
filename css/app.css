@@ -304,6 +304,50 @@ body {
   transform: translateY(73px);
 }
 
+.select-styles {
+  padding: 15px 0;
+  border: 0;
+  border-bottom: 2px solid #E6F0EE;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.select-styles:focus {
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #418043;
+}
+
+.product-details .counter {
+  border: 1px solid #418043;
+  display: flex;
+  padding: 12px;
+}
+.product-details .counter .count {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer;
+  gap: 15px;
+}
+.product-details .counter .count:hover {
+  background: #418043;
+  color: #fff;
+}
+.product-details .counter .count-val {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
 footer {
   background-image: url(../images/footer-vegetables-background.svg), linear-gradient(#0c0c0c, #000000);
   background-size: cover;
