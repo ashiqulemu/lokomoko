@@ -27,6 +27,10 @@
         letter-spacing: 3.2px;
     }
 
+    .bg-breadcrumb{
+        background: #F2F7F6;
+    }
+
     // @font-face {
     //     font-family: "poppins-bold";
     //     src: url(../fonts/Poppins-Bold.otf);
@@ -388,6 +392,25 @@
                 }
             }
         }
+    }
+
+    .products{
+        a{
+            &:hover{
+                .title{
+                    color: $primary!important;
+                }
+            }
+        }
+    }
+
+    .shop-all{
+        min-height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F2F7F6;
+        margin-top: 77px;
     }
 
     .footer-top {

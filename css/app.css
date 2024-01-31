@@ -11,6 +11,10 @@
   letter-spacing: 3.2px;
 }
 
+.bg-breadcrumb {
+  background: #F2F7F6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -278,6 +282,19 @@ body {
 .menu-row .inner .box h3 {
   font-family: "staatliches";
   color: #fff;
+}
+
+.products a:hover .title {
+  color: #418043 !important;
+}
+
+.shop-all {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F2F7F6;
+  margin-top: 77px;
 }
 
 .footer-top {
