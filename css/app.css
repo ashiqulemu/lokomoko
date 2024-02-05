@@ -238,6 +238,14 @@ body {
   bottom: 30px;
   padding: 45px;
 }
+.occation .photobox .photo .info.left {
+  left: 0 !important;
+  background: rgba(255, 255, 255, 0.7294117647);
+}
+.occation .photobox .photo .info.right {
+  right: 0 !important;
+  background: rgba(255, 255, 255, 0.7294117647);
+}
 .occation .photobox .photo:hover img {
   filter: brightness(0.6);
 }

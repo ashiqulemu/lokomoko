@@ -332,6 +332,15 @@
                     bottom: 30px;
                     padding: 45px;
 
+                    &.left{
+                        left:0!important; 
+                        background: #ffffffba;
+                    }
+                    &.right{
+                        right: 0!important; 
+                        background: #ffffffba;
+                    }
+
                 }
 
                 &:hover {
