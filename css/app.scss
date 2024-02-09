@@ -24,7 +24,51 @@
 
     .statliches {
         font-family: "staatliches", sans-serif !important;
-        letter-spacing: 3.2px;
+        // letter-spacing: 3.2px;
+    }
+
+    .theme-input {
+        border: 0;
+        border-bottom: 2px solid #E6F0EE;
+        border-radius: 0;
+
+        &:focus {
+            border-color: $primary;
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+
+    .form-input {
+        position: relative;
+
+        .required {
+            position: absolute;
+            right: calc(100% - 64px);
+            top: -4px;
+            color: red;
+        }
+
+        .theme-input::placeholder {
+            color: rgb(32, 32, 32);
+            position: absolute;
+            top: 0;
+        }
+
+        &:focus-within {
+            .theme-input::placeholder {
+                opacity: 0;
+            }
+            .required{
+                opacity: 0;
+            }
+
+        }
+    }
+
+    .noto-sans {
+        font-family: "noto-sans", sans-serif !important;
+        // letter-spacing: 3.2px;
     }
 
     .bg-breadcrumb {
