@@ -371,6 +371,19 @@ body {
   border-bottom: 2px solid #418043;
 }
 
+.link {
+  color: #000000;
+  font-weight: 500;
+  font-size: 17px;
+}
+.link:hover {
+  color: #418043;
+}
+
+.hover-red:hover {
+  color: red !important;
+}
+
 .product-details .counter {
   border: 1px solid #418043;
   display: flex;
@@ -400,6 +413,35 @@ body {
   color: #000000;
 }
 
+.counter {
+  border: 1px solid #418043;
+  display: flex;
+  padding: 12px;
+}
+.counter .count {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer;
+  gap: 15px;
+}
+.counter .count:hover {
+  background: #418043;
+  color: #fff;
+}
+.counter .count-val {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
 #nav-tab .nav-link {
   font-size: 13px;
   color: #1b1b1b;
@@ -409,6 +451,10 @@ body {
 }
 #nav-tab .nav-link.active {
   border-bottom: 3px solid #418043;
+}
+
+.dashed-border-bottom {
+  border-bottom: 1px solid #E6F0EE;
 }
 
 footer {

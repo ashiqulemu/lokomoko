@@ -492,6 +492,20 @@
         border-bottom: 2px solid $primary;
     }
 
+    .link{
+        color: #000000;
+        font-weight: 500;
+        font-size: 17px; 
+        &:hover{
+            color: $primary;
+        }
+    }
+    .hover-red{
+        &:hover{
+            color: red!important;
+        }
+    }
+
 
     .product-details {
         .counter {
@@ -526,6 +540,37 @@
             }
         }
     }
+    .counter {
+        border: 1px solid $primary;
+        display: flex;
+        padding: 12px;
+
+        .count {
+            height: 30px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $black;
+            font-size: 20px;
+            cursor: pointer;
+            gap: 15px;
+
+            &:hover {
+                background: $primary;
+                color: $white;
+            }
+        }
+
+        .count-val {
+            height: 30px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $black;
+        }
+    }
 
     #nav-tab .nav-link {
         font-size: 13px;
@@ -538,6 +583,10 @@
             border-bottom: 3px solid $primary;
         }
 
+    }
+
+    .dashed-border-bottom{
+        border-bottom: 1px solid #E6F0EE;
     }
 
     // site Footer 
