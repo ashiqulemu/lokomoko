@@ -14,6 +14,7 @@
   border: 0;
   border-bottom: 2px solid #E6F0EE;
   border-radius: 0;
+  padding-left: 0;
 }
 .theme-input:focus {
   border-color: #418043;
@@ -31,12 +32,12 @@
   color: red;
 }
 .form-input .theme-input::-moz-placeholder {
-  color: rgb(32, 32, 32);
+  color: rgb(144, 144, 144);
   position: absolute;
   top: 0;
 }
 .form-input .theme-input::placeholder {
-  color: rgb(32, 32, 32);
+  color: rgb(144, 144, 144);
   position: absolute;
   top: 0;
 }

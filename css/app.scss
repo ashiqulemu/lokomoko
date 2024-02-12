@@ -31,6 +31,7 @@
         border: 0;
         border-bottom: 2px solid #E6F0EE;
         border-radius: 0;
+        padding-left: 0;
 
         &:focus {
             border-color: $primary;
@@ -50,7 +51,7 @@
         }
 
         .theme-input::placeholder {
-            color: rgb(32, 32, 32);
+            color: rgb(144, 144, 144);
             position: absolute;
             top: 0;
         }
