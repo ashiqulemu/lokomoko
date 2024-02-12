@@ -385,6 +385,10 @@ body {
   color: red !important;
 }
 
+.hover-primary:hover {
+  color: #418043 !important;
+}
+
 .product-details .counter {
   border: 1px solid #418043;
   display: flex;
@@ -461,6 +465,11 @@ body {
 footer {
   background-image: url(../images/footer-bg.jpg), linear-gradient(#0c0c0c, #000000);
   background-size: 100% 100%;
+}
+@media (max-width: 768px) {
+  footer {
+    background-size: cover;
+  }
 }
 footer ul {
   padding: 0;

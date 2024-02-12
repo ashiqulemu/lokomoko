@@ -506,6 +506,11 @@
             color: red!important;
         }
     }
+    .hover-primary{
+        &:hover{
+            color: $primary!important;
+        }
+    }
 
 
     .product-details {
@@ -595,6 +600,10 @@
     footer {
         background-image: url(../images/footer-bg.jpg), linear-gradient(#0c0c0c, #000000);
         background-size: 100% 100%;
+
+        @media(max-width:768px){
+            background-size: cover;
+        }
 
         ul {
             padding: 0;
