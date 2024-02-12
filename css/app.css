@@ -124,6 +124,11 @@ body {
   top: 0;
   z-index: 2;
 }
+@media (min-width: 960px) {
+  .site-header .navbar {
+    padding: 1rem 0 !important;
+  }
+}
 .site-header.active {
   background: #fff;
 }
@@ -577,4 +582,50 @@ footer ul li a:hover {
   background: #56a958 !important;
   color: #fff !important;
   border-color: #418043;
+}
+
+.contact {
+  background: #F2F7F6;
+  padding: 90px 0;
+}
+.contact .contact-block {
+  background: #fff;
+  min-height: 384px;
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 50px;
+  row-gap: 29px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-block iconify-icon {
+  font-size: 3rem;
+  color: #418043;
+}
+.contact .contact-block h3 {
+  color: #418043;
+}
+.contact .contact-block .sub-title {
+  color: #418043;
+}
+.contact .contact-block:hover {
+  background: #418043;
+}
+.contact .contact-block:hover iconify-icon {
+  color: #fff;
+}
+.contact .contact-block:hover h3 {
+  color: #fff;
+}
+.contact .contact-block:hover .sub-title {
+  color: #fff;
+}
+
+.contact-form .form-control {
+  background: transparent;
+}
+.contact-form .form-control:focus {
+  background: #fff;
+  box-shadow: none;
 }/*# sourceMappingURL=app.css.map */

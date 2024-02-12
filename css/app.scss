@@ -60,7 +60,8 @@
             .theme-input::placeholder {
                 opacity: 0;
             }
-            .required{
+
+            .required {
                 opacity: 0;
             }
 
@@ -155,6 +156,13 @@
         right: 0;
         top: 0;
         z-index: 2;
+
+        .navbar {
+            @media(min-width:960px) {
+                padding: 1rem 0 !important;
+
+            }
+        }
 
         &.active {
             background: $white;
@@ -493,22 +501,25 @@
         border-bottom: 2px solid $primary;
     }
 
-    .link{
+    .link {
         color: #000000;
         font-weight: 500;
-        font-size: 17px; 
-        &:hover{
+        font-size: 17px;
+
+        &:hover {
             color: $primary;
         }
     }
-    .hover-red{
-        &:hover{
-            color: red!important;
+
+    .hover-red {
+        &:hover {
+            color: red !important;
         }
     }
-    .hover-primary{
-        &:hover{
-            color: $primary!important;
+
+    .hover-primary {
+        &:hover {
+            color: $primary !important;
         }
     }
 
@@ -546,6 +557,7 @@
             }
         }
     }
+
     .counter {
         border: 1px solid $primary;
         display: flex;
@@ -591,7 +603,7 @@
 
     }
 
-    .dashed-border-bottom{
+    .dashed-border-bottom {
         border-bottom: 1px solid #E6F0EE;
     }
 
@@ -601,7 +613,7 @@
         background-image: url(../images/footer-bg.jpg), linear-gradient(#0c0c0c, #000000);
         background-size: 100% 100%;
 
-        @media(max-width:768px){
+        @media(max-width:768px) {
             background-size: cover;
         }
 
@@ -748,5 +760,63 @@
             background: lighten($primary, $amount: 12%) !important;
             color: $white !important;
             border-color: $primary ;
+        }
+    }
+
+
+    .contact {
+        background: #F2F7F6;
+        padding: 90px 0;
+
+        .contact-block {
+            background: #fff;
+
+            iconify-icon {
+                font-size: 3rem;
+                color: $primary;
+            }
+
+            h3 {
+                color: $primary;
+            }
+
+            min-height: 384px;
+            display: flex;
+            flex-direction: column;
+            -moz-column-gap: 50px;
+            row-gap: 29px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+            .sub-title {
+                color: $primary;
+            }
+
+            &:hover {
+                background: #418043;
+
+                iconify-icon {
+
+                    color: $white;
+                }
+
+                h3 {
+                    color: $white;
+                }
+
+                .sub-title {
+                    color: $white;
+                }
+            }
+        }
+    }
+    .contact-form{
+        .form-control{
+            background: transparent;
+            &:focus{
+                background: #fff;
+                box-shadow: none;
+            }
         }
     }
