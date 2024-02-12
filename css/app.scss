@@ -610,11 +610,12 @@
     // site Footer 
 
     footer {
-        background-image: url(../images/footer-bg.jpg), linear-gradient(#0c0c0c, #000000);
-        background-size: 100% 100%;
+        background-image:linear-gradient(#0c0c0c24, #000000), url(../images/footer-bg.jpg) ;
+        background-size: cover;
+        background-position: top right;
 
         @media(max-width:768px) {
-            background-size: cover;
+            background-position: 82% 44%;
         }
 
         ul {
