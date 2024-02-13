@@ -40,6 +40,10 @@
         }
     }
 
+    .navbar-toggler{
+        background: $primary;
+    }
+
     .form-input {
         position: relative;
 
@@ -101,7 +105,11 @@
     // needable  classes 
 
     .txt-primary {
-        color: $primary;
+        color: $primary!important;
+    }
+
+    .cursor-pointer{
+        cursor: pointer;
     }
 
     .txt-secondary {
@@ -113,7 +121,7 @@
     }
 
     .bg-priamry {
-        background: $primary ;
+        background-color: $primary!important ;
     }
 
     .bg-secondary {
@@ -239,6 +247,22 @@
 
                     &.active {
                         color: $white;
+                    }
+                }
+
+                .mega-menu{
+                    display: none;
+                    
+                    width: 395px;
+                    position: absolute;
+                    right: 0;
+                    z-index: 1;
+                
+                }
+
+                &:hover{
+                    .mega-menu{
+                        display: block; 
                     }
                 }
 
@@ -836,3 +860,9 @@
       .slick-dots li button{
         border-radius: 50%;
       }
+
+      #otherShip:focus + .shipping-form{ 
+        background: #000;
+      }
+
+      
