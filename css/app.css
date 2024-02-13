@@ -17,7 +17,7 @@
   padding-left: 0;
 }
 .theme-input:focus {
-  border-color: #418043;
+  border-color: #568C59;
   outline: 0;
   box-shadow: none;
 }
@@ -71,7 +71,7 @@ a {
 }
 
 .txt-primary {
-  color: #418043;
+  color: #568C59;
 }
 
 .txt-secondary {
@@ -83,7 +83,7 @@ a {
 }
 
 .bg-priamry {
-  background: #418043;
+  background: #568C59;
 }
 
 .bg-secondary {
@@ -136,24 +136,24 @@ body {
   color: #000000;
 }
 .site-header.active .navCustom .nav-item .nav-link:hover {
-  color: #418043;
+  color: #568C59;
 }
 .site-header.active .navCustom .nav-item .nav-link.active {
-  color: #418043;
+  color: #568C59;
 }
 .site-header.active .navCustom .nav-item .btn-default {
   background: #4fa852;
   color: #fff;
 }
 .site-header.active .navCustom .nav-item .btn-default:hover {
-  background: #418043;
+  background: #568C59;
 }
 .site-header.active .navCustom .nav-item .dropdown-item:hover {
-  background-color: #418043;
+  background-color: #568C59;
   color: #fff;
 }
 .site-header.active .navCustom .nav-item .dropdown-item.active {
-  background-color: #418043;
+  background-color: #568C59;
   color: #fff;
 }
 @media (max-width: 375px) {
@@ -184,11 +184,11 @@ body {
   color: #fff;
 }
 .site-header .navCustom .nav-item .dropdown-item:hover {
-  background-color: #418043;
+  background-color: #568C59;
   color: #fff;
 }
 .site-header .navCustom .nav-item .dropdown-item.active {
-  background-color: #418043;
+  background-color: #568C59;
   color: #fff;
 }
 
@@ -343,7 +343,7 @@ body {
 }
 
 .products a:hover .title {
-  color: #418043 !important;
+  color: #568C59 !important;
 }
 
 .shop-all {
@@ -374,7 +374,7 @@ body {
 .select-styles:focus {
   outline: 0;
   box-shadow: none;
-  border-bottom: 2px solid #418043;
+  border-bottom: 2px solid #568C59;
 }
 
 .link {
@@ -383,7 +383,7 @@ body {
   font-size: 17px;
 }
 .link:hover {
-  color: #418043;
+  color: #568C59;
 }
 
 .hover-red:hover {
@@ -391,11 +391,11 @@ body {
 }
 
 .hover-primary:hover {
-  color: #418043 !important;
+  color: #568C59 !important;
 }
 
 .product-details .counter {
-  border: 1px solid #418043;
+  border: 1px solid #568C59;
   display: flex;
   padding: 12px;
 }
@@ -411,7 +411,7 @@ body {
   gap: 15px;
 }
 .product-details .counter .count:hover {
-  background: #418043;
+  background: #568C59;
   color: #fff;
 }
 .product-details .counter .count-val {
@@ -424,7 +424,7 @@ body {
 }
 
 .counter {
-  border: 1px solid #418043;
+  border: 1px solid #568C59;
   display: flex;
   padding: 12px;
 }
@@ -440,7 +440,7 @@ body {
   gap: 15px;
 }
 .counter .count:hover {
-  background: #418043;
+  background: #568C59;
   color: #fff;
 }
 .counter .count-val {
@@ -460,7 +460,7 @@ body {
   border-bottom: 3px solid transparent;
 }
 #nav-tab .nav-link.active {
-  border-bottom: 3px solid #418043;
+  border-bottom: 3px solid #568C59;
 }
 
 .dashed-border-bottom {
@@ -489,7 +489,7 @@ footer ul li a {
   font-weight: 600;
 }
 footer ul li a:hover {
-  color: #418043;
+  color: #568C59;
 }
 
 .slick-track {
@@ -499,7 +499,7 @@ footer ul li a:hover {
 .slick-next {
   height: 35px !important;
   width: 35px !important;
-  background: #418043;
+  background: #568C59;
 }
 .slick-next:hover {
   background: #1E3A58 !important;
@@ -508,7 +508,7 @@ footer ul li a:hover {
 .slick-prev {
   height: 35px !important;
   width: 35px !important;
-  background: #418043;
+  background: #568C59;
 }
 .slick-prev:hover {
   background: #1E3A58 !important;
@@ -522,7 +522,7 @@ footer ul li a:hover {
 }
 
 .slick-dots li.slick-active button {
-  background: #418043;
+  background: #568C59;
 }
 
 .carousel-indicators {
@@ -547,7 +547,7 @@ footer ul li a:hover {
   text-transform: capitalize;
 }
 .btn-default:hover {
-  background: #418043;
+  background: #568C59;
   color: #fff;
 }
 
@@ -563,7 +563,7 @@ footer ul li a:hover {
   text-transform: capitalize;
 }
 .btn-default-dark:hover {
-  background: #418043;
+  background: #568C59;
   color: #fff;
 }
 
@@ -572,17 +572,17 @@ footer ul li a:hover {
   text-transform: uppercase;
   font-weight: 400;
   color: #ffffff;
-  background: #418043;
+  background: #568C59;
   padding: 13px 30px;
   transition: all 0.2s ease-in;
   text-decoration: none;
   text-transform: capitalize;
-  border-color: #418043;
+  border-color: #568C59;
 }
 .btn-primary:hover {
-  background: #56a958 !important;
+  background: #75aa78 !important;
   color: #fff !important;
-  border-color: #418043;
+  border-color: #568C59;
 }
 
 .contact {
@@ -602,13 +602,13 @@ footer ul li a:hover {
 }
 .contact .contact-block iconify-icon {
   font-size: 3rem;
-  color: #418043;
+  color: #568C59;
 }
 .contact .contact-block h3 {
-  color: #418043;
+  color: #568C59;
 }
 .contact .contact-block .sub-title {
-  color: #418043;
+  color: #568C59;
 }
 .contact .contact-block:hover {
   background: #418043;
@@ -629,4 +629,18 @@ footer ul li a:hover {
 .contact-form .form-control:focus {
   background: #fff;
   box-shadow: none;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: rgba(0, 0, 0, 0.5960784314) !important;
+  color: #fff !important;
+}
+
+.slick-dots li.slick-active button {
+  background: #568C59 !important;
+}
+
+.slick-dots li button {
+  border-radius: 50%;
 }/*# sourceMappingURL=app.css.map */
