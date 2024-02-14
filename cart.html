@@ -182,13 +182,38 @@
                             <span>₹432</span>
                         </div>
                         <div class="d-flex justify-content-between noto-sans dashed-border-bottom pb-3 mb-3">
-                        <div class=" "> shipping </div>
-                        <div class="text-end lh-lg ">
-                            Free Shipping <br>
-                            Shipping to <span class="fw-bold">Maharashtra</span> <br>
-                            <a href="#" class="link">change address</a>
+                            <div class=" "> shipping </div>
+                            <div class="text-end lh-lg ">
+                                Free Shipping <br>
+                                Shipping to <span class="fw-bold">Maharashtra</span> <br>
+                                <a class="link" data-bs-toggle="collapse" href="#changeAddress" role="button"
+                                    aria-expanded="false" aria-controls="changeAddress">change address</a>
 
-                        </div>
+                                <div class="collapse" id="changeAddress">
+                                    <p class="form-input ">
+                                        <label for="" class="fw-bold mb-4">Provience </label>
+                                        <select name="" id="" class="form-control theme-input">
+                                            <option value="">India</option>
+                                        </select>
+                                    </p>
+                                    <p class="form-input ">
+                                        <select name="" id="" class="form-control theme-input">
+                                            <option value="">Maharashtra</option>
+                                        </select>
+                                    </p>
+                                    <p class="form-input ">
+                                        <input type="text" placeholder="City" class="form-control theme-input"
+                                            placeholder="House number &amp; Street name">
+                                    </p>
+                                    <p class="form-input  ">
+                                        <input type="text" placeholder="Zip code" class="form-control theme-input"
+                                            placeholder="House number &amp; Street name">
+                                    </p>
+                                    <a href="#" class="btn-primary w-100 d-inline text-center py-3 d-block">
+                                        update
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <p class="d-flex justify-content-between ">
                             <span class="fw-bold"> Total</span>
