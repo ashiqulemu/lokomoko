@@ -689,4 +689,12 @@ input[type=radio].form-check-input {
   -moz-appearance: auto !important;
        appearance: auto !important;
   box-shadow: none;
+}
+
+input[type=checkbox].form-check-input {
+  accent-color: #568C59 !important;
+  -webkit-appearance: auto;
+  -moz-appearance: auto !important;
+       appearance: auto !important;
+  box-shadow: none;
 }/*# sourceMappingURL=app.css.map */

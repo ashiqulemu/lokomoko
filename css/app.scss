@@ -890,3 +890,9 @@
         appearance: auto!important;
         box-shadow: none;
     }
+    input[type=checkbox].form-check-input{
+        accent-color: $primary!important;
+        -webkit-appearance:auto;
+        appearance: auto!important;
+        box-shadow: none;
+    }
